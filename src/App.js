@@ -8,7 +8,7 @@ import Testimonials from "./components/Testimonials";
 
 export default function App() {
   return (
-    <main className="text-gray-400 bg-gray-900 body-font">
+    <main className="text-gray-400 bg-gray-900 body-font"> {/* give our portfolio a dark background with gray text applied to all of our child components */}
       <Navbar />
       <About />
       <Projects />
